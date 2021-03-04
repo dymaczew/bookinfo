@@ -7,6 +7,7 @@ metadata:
   labels:
     app.kubernetes.io/name: productpage
     app.kubernetes.io/instance: bookinfo-demo
+    appname: bookinfo-demo
 spec:
   ports:
     - port: 9080
