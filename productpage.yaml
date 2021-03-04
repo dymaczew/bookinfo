@@ -8,6 +8,7 @@ metadata:
     app.kubernetes.io/name: productpage
     app.kubernetes.io/instance: bookinfo-demo
     appname: bookinfo-demo
+    purpose: icam-demo
 spec:
   ports:
     - port: 9080
