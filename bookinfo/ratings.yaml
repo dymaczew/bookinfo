@@ -62,7 +62,7 @@ spec:
           - name: SERVICE_VERSION
             value: "v-delayed"
           name: ratings
-          image: "docker.io/dymaczew/examples-bookinfo-ratings-v2:2020.2.1"
+          image: "docker.io/dymaczew/examples-bookinfo-ratings-v2:2020.2.2"
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
