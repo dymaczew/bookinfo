@@ -59,8 +59,6 @@ spec:
             value: "1"
           - name: LATENCY_SAMPLER_PARAM
             value: "1"
-          - name: SERVICE_VERSION
-            value: "v-delayed"
           name: ratings
           image: "docker.io/dymaczew/examples-bookinfo-ratings-v2:2020.2.2"
           imagePullPolicy: IfNotPresent
