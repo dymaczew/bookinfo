@@ -48,6 +48,10 @@ spec:
             value: "1"
           - name: LATENCY_SAMPLER_PARAM
             value: "1"
+          - name: UA_JAEGER_ENDPOINT
+            value: "http://jaeger.management-monitoring:14268/api/traces"
+          - name: UA_LWDC_LISTENER_URL
+            value: "http://lwdc.management-monitoring:8848"
           name: reviews
           image: "docker.io/dymaczew/examples-bookinfo-reviews-v3:2021.2.3"
           imagePullPolicy: IfNotPresent

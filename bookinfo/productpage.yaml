@@ -49,9 +49,11 @@ spec:
           - name: JAEGER_SAMPLER_PARAM
             value: "1"
           - name: UA_JAEGER_ENDPOINT
-            value: "http://jaeger.cp4mcm-cloud-native-monitoring:14268/api/traces"
+            value: "http://jaeger.management-monitoring:14268/api/traces"
+          - name: UA_LWDC_LISTENER_URL
+            value: "http://lwdc.management-monitoring:8848"
           - name: JAEGER_ENDPOINT
-            value: "http://jaeger.cp4mcm-cloud-native-monitoring:14268/api/traces"
+            value: "http://jaeger.management-monitoring:14268/api/traces"
           - name: LATENCY_SAMPLER_PARAM
             value: "1"
           name: productpage

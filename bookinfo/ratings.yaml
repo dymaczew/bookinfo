@@ -41,6 +41,10 @@ spec:
     spec:
       containers:
         - env:
+          - name: UA_JAEGER_ENDPOINT
+            value: "http://jaeger.management-monitoring:14268/api/traces"
+          - name: UA_LWDC_LISTENER_URL
+            value: "http://lwdc.management-monitoring:8848"
           - name: DB_TYPE
             value: mysql
           - name: MYSQL_DB_HOST
