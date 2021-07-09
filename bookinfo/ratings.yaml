@@ -26,6 +26,7 @@ metadata:
     runtime: node
     app.kubernetes.io/name: ratings
     app.kubernetes.io/instance: bookinfo-demo
+    instana-autotrace: true
 spec:
   replicas: 1
   selector:
