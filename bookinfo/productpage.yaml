@@ -59,7 +59,7 @@ spec:
           - name: LATENCY_SAMPLER_PARAM
             value: "1"
           name: productpage
-          image: "docker.io/dymaczew/examples-bookinfo-productpage-v1:instana"
+          image: "docker.io/dymaczew/examples-bookinfo-productpage-v1:2021.2.3-instana"
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
